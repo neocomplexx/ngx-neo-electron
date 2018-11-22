@@ -1,0 +1,20 @@
+{
+  "name": "ngx-neo-electron",
+  "version": "7.0.0",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "electron": "^2.0.8"
+  },
+  "author": {
+    "name": "NeoComplexx",
+    "email": "info@neocomplexx.com"
+  },
+  "keywords": [
+    "Angular",
+    "Electron",
+    "Library",
+    "App"
+  ],
+  "license": "MIT"
+}

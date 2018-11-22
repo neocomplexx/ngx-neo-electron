@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgxNeoElectronService } from 'ngx-neo-electron';
 
 @Component({
   selector: 'neo-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'neo-electron';
+  constructor(private electronService: NgxNeoElectronService) { }
+
+  public isElectron(): boolean {
+    return this.electronService.isElectronApp;
+  }
 }
