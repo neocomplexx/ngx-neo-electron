@@ -11,7 +11,7 @@
             "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}",
             "sourceMapPathOverrides": {
-                "webpack:///ng://ngx-neo-electron/lib/*": "${workspaceFolder}/projects/ngx-neo-electron/src/lib/*"
+                "webpack:///ng://@neocomplexx/ngx-neo-electron/lib/*": "${workspaceFolder}/projects/ngx-neo-electron/src/lib/*"
             },
             
         },
